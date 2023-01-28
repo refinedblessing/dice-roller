@@ -48,6 +48,12 @@ body {
   box-shadow: -2px 6px 2px 1px rgb(107 33 168 / 70%);
 }
 
+.RollDice-btn:disabled {
+  cursor: not-allowed;
+  background-color: rgba(107, 33, 168, 0.5);
+  color: #6b21a8;
+}
+
 /* copied from https://www.w3schools.com/howto/howto_css_shake_image.asp */
 
 .animation-shake {
