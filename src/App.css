@@ -9,7 +9,7 @@ body {
 .RollDice {
   margin: auto;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   gap: 40px;
   margin-top: 15%;
   padding: 40px 10px;
@@ -31,14 +31,13 @@ body {
 
 .RollDice-btn {
   background-color: #581c87;
-  padding: 20px;
-  width: 200px;
+  padding: 20px 40px;
   border: 0;
   border-radius: 100px;
   color: #ede9fe;
   font-weight: bold;
   font-size: 18px;
-  margin: auto;
+  align-self: center;
   transition: 0.3s;
 }
 

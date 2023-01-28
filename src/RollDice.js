@@ -2,7 +2,7 @@ import { Component } from 'react';
 import Die from './Die';
 
 function getRandomDieNum() {
-  return Math.floor(Math.random() * 6) + 1;
+  return Math.floor(Math.random() * 6);
 }
 
 class RollDice extends Component {
